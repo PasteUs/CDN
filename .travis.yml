@@ -2,3 +2,5 @@ language: bash
 
 script:
   - bash shell/${BRANCH}.sh
+
+if: tag IS blank
