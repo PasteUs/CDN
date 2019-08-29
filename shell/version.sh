@@ -1,6 +1,6 @@
 #!/usr/local/bin sh
 
-FILE=version
+FILE="version.txt"
 str=`cat ${FILE}`
 
 if [[ $# == 1 ]]; then
