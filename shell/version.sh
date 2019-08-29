@@ -8,8 +8,11 @@ if [[ $# == 1 ]]; then
     index=-1
     if [[ $1 == "major" ]]; then
 		index=0
+        array[1]=0
+        array[2]=0
 	elif [[ $1 == "minor" ]]; then
         index=1
+        array[2]=0
     elif [[ $1 == "patch" ]]; then
         index=2
     else

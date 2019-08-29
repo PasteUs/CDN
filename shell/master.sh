@@ -2,6 +2,7 @@
 
 GH_REF="github.com/PasteUs/CDN.git"
 
+bash -x shell/base.sh
 bash shell/version.sh patch
 git add version.txt
 git commit -m "pushed from travis-ci `TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S'` [ci skip]"
