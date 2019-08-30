@@ -1,0 +1,13 @@
+{
+  "api": "/api/",
+  "footer": [
+    {
+      "url": "http://blog.lucien.ink/go/csdn",
+      "text": "CSDN"
+    },
+    {
+      "url": "http://www.miitbeian.gov.cn/",
+      "text": "鲁ICP备18007563号"
+    }
+  ]
+}
