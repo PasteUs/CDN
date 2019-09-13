@@ -1,0 +1,1 @@
+(window["jsonpFunction"]=window["jsonpFunction"]||[]).push([["redirect"],{"4e42":function(n,t,e){"use strict";e.r(t);e("386d");var o,u,c={name:"Redirect",mounted:function(){this.$router.push(location.search.substr(1,location.search.length-1))}},i=c,r=e("2877"),s=Object(r["a"])(i,o,u,!1,null,null,null);t["default"]=s.exports}}]);
